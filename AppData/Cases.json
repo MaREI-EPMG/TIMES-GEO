@@ -1,1 +1,108 @@
-[{"CaseId":60,"CreatedOn":"2023-02-24 16:17","Description":"Base scenario - Functioning test","EditedOn":"2024-02-29 17:09","EndingYear":"2100","FixResultFileName":"False","FixResultInfo":{"WorkTimesFolderPath":null,"GdxElasticDermands":{"GdxSelectedFile":{"FileName":"","FilePath":"","IsSelected":false},"IsApplied":false},"GdxIre":{"GdxSelectedFile":{"FileName":"","FilePath":"","IsSelected":false},"IsApplied":false,"RadioSelection":1},"GdxUseSolution":{"FixYearsUpto":"","GdxSelectedFile":{"FileName":"","FilePath":"","IsSelected":false},"IsApplied":false,"RadioSelection":1},"IsApplyFixResult":false},"GAMSSourceFolder":"GAMS_SrcTIMES.v4.7.8","Name":"Base-2100","ParametricGroup":null,"ParametricGroupId":null,"PeriodsDefinition":"p2100-12","PropertiesGroup":"TIMES-GEO","PropertiesGroupId":83,"RegionGroup":"AllRegion","RegionGroupId":80,"ScenarioGroup":"Baseline","ScenarioGroupId":82,"Solver":"cplex","SolverOptionFile":"BS224-7_nco","UserName":"chiodi"},{"CaseId":53,"CreatedOn":"2023-02-21 16:21","Description":"Base scenario - Functioning test","EditedOn":"2024-02-21 15:50","EndingYear":"2050","FixResultFileName":"False","FixResultInfo":{"WorkTimesFolderPath":null,"GdxElasticDermands":{"GdxSelectedFile":{"FileName":"","FilePath":"","IsSelected":false},"IsApplied":false},"GdxIre":{"GdxSelectedFile":{"FileName":"","FilePath":"","IsSelected":false},"IsApplied":false,"RadioSelection":1},"GdxUseSolution":{"FixYearsUpto":"","GdxSelectedFile":{"FileName":"","FilePath":"","IsSelected":false},"IsApplied":false,"RadioSelection":1},"IsApplyFixResult":false},"GAMSSourceFolder":"GAMS_SrcTIMES.v4.7.8","Name":"Base-2050","ParametricGroup":null,"ParametricGroupId":null,"PeriodsDefinition":"p2100-12","PropertiesGroup":"TIMES-GEO","PropertiesGroupId":83,"RegionGroup":"AllRegion","RegionGroupId":80,"ScenarioGroup":"Baseline","ScenarioGroupId":82,"Solver":"cplex","SolverOptionFile":"CPLEX","UserName":"chiodi"}]
+[
+    {
+        "CaseId": 60,
+        "CreatedOn": "2023-02-24 16:17",
+        "Description": "Base scenario - Functioning test",
+        "EditedOn": "2024-02-29 17:09",
+        "EndingYear": "2100",
+        "FixResultFileName": "False",
+        "FixResultInfo": {
+            "WorkTimesFolderPath": null,
+            "GdxElasticDermands": {
+                "GdxSelectedFile": {
+                    "FileName": "",
+                    "FilePath": "",
+                    "IsSelected": false
+                },
+                "IsApplied": false
+            },
+            "GdxIre": {
+                "GdxSelectedFile": {
+                    "FileName": "",
+                    "FilePath": "",
+                    "IsSelected": false
+                },
+                "IsApplied": false,
+                "RadioSelection": 1
+            },
+            "GdxUseSolution": {
+                "FixYearsUpto": "",
+                "GdxSelectedFile": {
+                    "FileName": "",
+                    "FilePath": "",
+                    "IsSelected": false
+                },
+                "IsApplied": false,
+                "RadioSelection": 1
+            },
+            "IsApplyFixResult": false
+        },
+        "GAMSSourceFolder": "GAMS_SrcTIMES.v4.7.8",
+        "Name": "Base-2100",
+        "ParametricGroup": null,
+        "ParametricGroupId": null,
+        "PeriodsDefinition": "p2100-12",
+        "PropertiesGroup": "TIMES-GEO",
+        "PropertiesGroupId": 83,
+        "RegionGroup": "AllRegion",
+        "RegionGroupId": 80,
+        "ScenarioGroup": "Baseline",
+        "ScenarioGroupId": 82,
+        "Solver": "cplex",
+        "SolverOptionFile": "BS224-7_nco",
+        "UserName": "chiodi"
+    },
+    {
+        "CaseId": 53,
+        "CreatedOn": "2023-02-21 16:21",
+        "Description": "Base scenario - Functioning test",
+        "EditedOn": "2024-02-21 15:50",
+        "EndingYear": "2050",
+        "FixResultFileName": "False",
+        "FixResultInfo": {
+            "WorkTimesFolderPath": null,
+            "GdxElasticDermands": {
+                "GdxSelectedFile": {
+                    "FileName": "",
+                    "FilePath": "",
+                    "IsSelected": false
+                },
+                "IsApplied": false
+            },
+            "GdxIre": {
+                "GdxSelectedFile": {
+                    "FileName": "",
+                    "FilePath": "",
+                    "IsSelected": false
+                },
+                "IsApplied": false,
+                "RadioSelection": 1
+            },
+            "GdxUseSolution": {
+                "FixYearsUpto": "",
+                "GdxSelectedFile": {
+                    "FileName": "",
+                    "FilePath": "",
+                    "IsSelected": false
+                },
+                "IsApplied": false,
+                "RadioSelection": 1
+            },
+            "IsApplyFixResult": false
+        },
+        "GAMSSourceFolder": "GAMS_SrcTIMES.v4.7.8",
+        "Name": "Base-2050",
+        "ParametricGroup": null,
+        "ParametricGroupId": null,
+        "PeriodsDefinition": "p2100-12",
+        "PropertiesGroup": "TIMES-GEO",
+        "PropertiesGroupId": 83,
+        "RegionGroup": "AllRegion",
+        "RegionGroupId": 80,
+        "ScenarioGroup": "Baseline",
+        "ScenarioGroupId": 82,
+        "Solver": "cplex",
+        "SolverOptionFile": "CPLEX",
+        "UserName": "chiodi"
+    }
+]

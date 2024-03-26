@@ -1,1 +1,142 @@
-[{"Description":"Final Energy Consumption","EditedOn":"2024-02-20 09:53","LastAccessed":"2024-02-20 09:53","Filter":"{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"A_Techs\",\"I_Techs\",\"R_Techs\",\"S_Techs\",\"T_Techs\"],\"commodityset\":[\"ALLAMM\",\"ALLBIO\",\"ALLCOA\",\"ALLELC\",\"ALLGAS\",\"ALLGAS-B\",\"ALLGEO\",\"ALLH2\",\"ALLH2F\",\"ALLHET\",\"ALLHYD\",\"ALLNUC\",\"ALLOIL\",\"ALLOIL-B\",\"ALLOTH\",\"ALLSOL\",\"ALLWAS\",\"ALLWIN\"]}","Name":"01_ALL_FEC"},{"Description":"Heat production","EditedOn":"2024-02-20 09:53","LastAccessed":"2024-02-20 09:53","Filter":"{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"P-CHP\",\"P-HPL\"],\"commodityset\":[\"ALLHET\"]}","Name":"01_PWR_Heat Production"},{"Description":"Total CO2eq emissions from aviation and navigation","EditedOn":"2024-02-20 09:53","LastAccessed":"2024-02-20 09:53","Filter":"{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"T-AVI\",\"T-NAV\"],\"commodityset\":[\"ALLCO2e\"]}","Name":"02_TRA_CO2e Avi  Nav"},{"Description":"CO2eq emissions by sector","EditedOn":"2024-02-20 09:53","LastAccessed":"2024-02-20 09:53","Filter":"{\"attribute\":[\"VAR_FOut\"],\"commodity\":[\"AGRCO2e\",\"INDCO2e\",\"PWRCO2e\",\"RSDCO2e\",\"SRVCO2e\",\"TRACO2e\",\"UPSCO2e\"]}","Name":"02_CO2e emissions"},{"Description":"Annual investments (undiscounted annuities) by sector","EditedOn":"2024-02-20 09:53","LastAccessed":"2024-02-20 09:53","Filter":"{\"attribute\":[\"Cost_Inv\"],\"processset\":[\"A_All\",\"I_All\",\"P_All\",\"R_All\",\"S_All\",\"T_All\",\"U_All\"]}","Name":"03_ALL_Investments by sector"},{"Description":"Primary energy consumption","EditedOn":"2024-02-20 09:53","LastAccessed":"2024-02-20 09:53","Filter":"{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"IMP\",\"MIN\"],\"commodityset\":[\"ALLBIO\",\"ALLCOA\",\"ALLELC\",\"ALLGAS\",\"ALLGEO\",\"ALLHET\",\"ALLHYD\",\"ALLNUC\",\"ALLOIL\",\"ALLOIL-B\",\"ALLOTH\",\"ALLSOL\",\"ALLWIN\",\"ALLWAS\"]}","Name":"01_ALL_Primary energy"},{"Description":"Agriculture final energy consumption","EditedOn":"2024-02-20 09:53","LastAccessed":"2024-02-20 09:53","Filter":"{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"A_Techs\"],\"commodityset\":[\"ALLAMM\",\"ALLBIO\",\"ALLCOA\",\"ALLELC\",\"ALLGAS\",\"ALLGAS-B\",\"ALLGEO\",\"ALLH2\",\"ALLH2F\",\"ALLHET\",\"ALLHYD\",\"ALLNUC\",\"ALLOIL\",\"ALLOIL-B\",\"ALLOTH\",\"ALLSOL\",\"ALLWAS\",\"ALLWIN\"]}","Name":"01_AGR_FEC"},{"Description":"Transport final energy consumption by mode","EditedOn":"2024-02-20 09:53","LastAccessed":"2024-02-20 09:53","Filter":"{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"T-AVI\",\"T-BUS\",\"T-CAR\",\"T-HDT\",\"T-LCV\",\"T-MDT\",\"T-MOT\",\"T-NAV\",\"T-RAI\"],\"commodityset\":[\"ALLAMM\",\"ALLBIO\",\"ALLCOA\",\"ALLELC\",\"ALLGAS\",\"ALLGAS-B\",\"ALLGEO\",\"ALLH2\",\"ALLH2F\",\"ALLHET\",\"ALLHYD\",\"ALLNUC\",\"ALLOIL\",\"ALLOIL-B\",\"ALLOTH\",\"ALLSOL\",\"ALLWAS\",\"ALLWIN\"]}","Name":"01_TRA_FEC by mode"},{"Description":"Final Energy consumption by sector","EditedOn":"2024-02-20 09:53","LastAccessed":"2024-02-20 09:53","Filter":"{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"I-CH\",\"I-IS\",\"I-NF\",\"I-NM\",\"I-OI\",\"I-PP\",\"I-WP\"],\"commodityset\":[\"ALLAMM\",\"ALLBIO\",\"ALLCOA\",\"ALLELC\",\"ALLGAS\",\"ALLGAS-B\",\"ALLGEO\",\"ALLH2\",\"ALLH2F\",\"ALLHET\",\"ALLHYD\",\"ALLNUC\",\"ALLOIL\",\"ALLOIL-B\",\"ALLOTH\",\"ALLSOL\",\"ALLWAS\",\"ALLWIN\"]}","Name":"01_IND_FEC by sector"},{"Description":"Capacity portfolio of Power sector plants and Decentralised plants","EditedOn":"2024-02-20 09:53","LastAccessed":"2024-02-20 09:53","Filter":"{\"attribute\":[\"VAR_Cap\"],\"processset\":[\"P_BGS\",\"P_BGS-CCS\",\"P_BIO\",\"P_BIO-CCS\",\"P_BLQ\",\"P_COA\",\"P_COA-CCS\",\"P_GAS\",\"P_GAS-CCS\",\"P_GEO\",\"P_HYD\",\"P_NUC\",\"P_OCE\",\"P_OIL\",\"P_SOL\",\"P_WAS\",\"P_WIN-OF\",\"P_WIN-ON\"]}","Name":"01_PWR_Power plant capacity"},{"Description":"Centralized and Decentralised elecricity production","EditedOn":"2024-02-20 09:53","LastAccessed":"2024-02-20 09:53","Filter":"{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"P_BGS\",\"P_BGS-CCS\",\"P_BIO\",\"P_BIO-CCS\",\"P_BLQ\",\"P_COA\",\"P_COA-CCS\",\"P_GAS\",\"P_GAS-CCS\",\"P_GEO\",\"P_HYD\",\"P_NUC\",\"P_OCE\",\"P_OIL\",\"P_SOL\",\"P_WAS\",\"P_WIN\"],\"commodityset\":[\"ALLELC\"]}","Name":"01_PWR_Electricity Production"},{"Description":"CO2 emissions by sector","EditedOn":"2024-02-20 09:53","LastAccessed":"2024-02-20 09:53","Filter":"{\"attribute\":[\"VAR_FOut\"],\"commodity\":[\"AGRCO2\",\"INDCO2\",\"PWRCO2\",\"RSDCO2\",\"SRVCO2\",\"TRACO2\",\"UPSCO2\"]}","Name":"02_CO2 emissions"},{"Description":"Dummy Import check","EditedOn":"2024-02-20 09:53","LastAccessed":"2024-02-20 09:53","Filter":"{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"DUMIMP\"]}","Name":"00_Check_DummyImp"},{"Description":"Total discounted system cost","EditedOn":"2024-02-20 09:53","LastAccessed":"2024-02-20 09:53","Filter":"{\"attribute\":[\"ObjZ\"]}","Name":"00_SystemCost"},{"Description":"Total discounted system cost detailed by type activity (ACT), fixed (FIX), investment (INV) and  flow (FLO)","EditedOn":"2024-02-20 09:53","LastAccessed":"2024-02-20 09:53","Filter":"{\"attribute\":[\"Cost_NPV\"]}","Name":"00_SystemCost by type"},{"Description":"Residential rehabilitation houses savings","EditedOn":"2024-02-20 09:53","LastAccessed":"2024-02-20 09:53","Filter":"{\"process\":[\"R-DUM-SAV\"],\"attribute\":[\"VAR_FOut\",\"VAR_Cap\",\"Cost_Inv\"]}","Name":"01_RSD-Savings"},{"Description":"Electricity Consumption by sector","EditedOn":"2024-02-20 09:53","LastAccessed":"2024-02-20 09:53","Filter":"{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"A_Techs\",\"I_Techs\",\"R_Techs\",\"S_Techs\",\"T_Techs\",\"U_All\"],\"commodityset\":[\"ALLELC\"]}","Name":"01_ALL_ElcCons by sector"},{"Description":"Road transport final energy consumption","EditedOn":"2024-02-20 09:53","LastAccessed":"2024-02-20 09:53","Filter":"{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"T-BUS\",\"T-CAR\",\"T-HDT\",\"T-LCV\",\"T-MDT\",\"T-MOT\"],\"commodityset\":[\"ALLAMM\",\"ALLBIO\",\"ALLCOA\",\"ALLELC\",\"ALLGAS\",\"ALLGAS-B\",\"ALLGEO\",\"ALLH2\",\"ALLH2F\",\"ALLHET\",\"ALLHYD\",\"ALLNUC\",\"ALLOIL\",\"ALLOIL-B\",\"ALLOTH\",\"ALLSOL\",\"ALLWAS\",\"ALLWIN\"]}","Name":"01_TRA_FEC Road"},{"Description":"Residential fuel consumption by energy service","EditedOn":"2024-02-20 09:53","LastAccessed":"2024-02-20 09:53","Filter":"{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"R-AC\",\"R-CK\",\"R-EAP\",\"R-LIG\",\"R-OTH\",\"R-TH\"],\"commodityset\":[\"ALLAMM\",\"ALLBIO\",\"ALLCOA\",\"ALLELC\",\"ALLGAS\",\"ALLGAS-B\",\"ALLGEO\",\"ALLH2\",\"ALLH2F\",\"ALLHET\",\"ALLHYD\",\"ALLNUC\",\"ALLOIL\",\"ALLOIL-B\",\"ALLOTH\",\"ALLSOL\",\"ALLWAS\",\"ALLWIN\"]}","Name":"01_RSD_FEC"},{"Description":"Services final energy consumption by energy service","EditedOn":"2024-02-20 09:53","LastAccessed":"2024-02-20 09:53","Filter":"{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"S-AC\",\"S-CK\",\"S-EAP\",\"S-LIG\",\"S-OTH\",\"S-SLIG\",\"S-TH\"],\"commodityset\":[\"ALLAMM\",\"ALLBIO\",\"ALLCOA\",\"ALLELC\",\"ALLGAS\",\"ALLGAS-B\",\"ALLGEO\",\"ALLH2\",\"ALLH2F\",\"ALLHET\",\"ALLHYD\",\"ALLNUC\",\"ALLOIL\",\"ALLOIL-B\",\"ALLOTH\",\"ALLSOL\",\"ALLWAS\",\"ALLWIN\"]}","Name":"01_SRV_FEC"}]
+[
+    {
+        "Description": "Final Energy Consumption",
+        "EditedOn": "2024-02-20 09:53",
+        "LastAccessed": "2024-02-20 09:53",
+        "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"A_Techs\",\"I_Techs\",\"R_Techs\",\"S_Techs\",\"T_Techs\"],\"commodityset\":[\"ALLAMM\",\"ALLBIO\",\"ALLCOA\",\"ALLELC\",\"ALLGAS\",\"ALLGAS-B\",\"ALLGEO\",\"ALLH2\",\"ALLH2F\",\"ALLHET\",\"ALLHYD\",\"ALLNUC\",\"ALLOIL\",\"ALLOIL-B\",\"ALLOTH\",\"ALLSOL\",\"ALLWAS\",\"ALLWIN\"]}",
+        "Name": "01_ALL_FEC"
+    },
+    {
+        "Description": "Heat production",
+        "EditedOn": "2024-02-20 09:53",
+        "LastAccessed": "2024-02-20 09:53",
+        "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"P-CHP\",\"P-HPL\"],\"commodityset\":[\"ALLHET\"]}",
+        "Name": "01_PWR_Heat Production"
+    },
+    {
+        "Description": "Total CO2eq emissions from aviation and navigation",
+        "EditedOn": "2024-02-20 09:53",
+        "LastAccessed": "2024-02-20 09:53",
+        "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"T-AVI\",\"T-NAV\"],\"commodityset\":[\"ALLCO2e\"]}",
+        "Name": "02_TRA_CO2e Avi  Nav"
+    },
+    {
+        "Description": "CO2eq emissions by sector",
+        "EditedOn": "2024-02-20 09:53",
+        "LastAccessed": "2024-02-20 09:53",
+        "Filter": "{\"attribute\":[\"VAR_FOut\"],\"commodity\":[\"AGRCO2e\",\"INDCO2e\",\"PWRCO2e\",\"RSDCO2e\",\"SRVCO2e\",\"TRACO2e\",\"UPSCO2e\"]}",
+        "Name": "02_CO2e emissions"
+    },
+    {
+        "Description": "Annual investments (undiscounted annuities) by sector",
+        "EditedOn": "2024-02-20 09:53",
+        "LastAccessed": "2024-02-20 09:53",
+        "Filter": "{\"attribute\":[\"Cost_Inv\"],\"processset\":[\"A_All\",\"I_All\",\"P_All\",\"R_All\",\"S_All\",\"T_All\",\"U_All\"]}",
+        "Name": "03_ALL_Investments by sector"
+    },
+    {
+        "Description": "Primary energy consumption",
+        "EditedOn": "2024-02-20 09:53",
+        "LastAccessed": "2024-02-20 09:53",
+        "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"IMP\",\"MIN\"],\"commodityset\":[\"ALLBIO\",\"ALLCOA\",\"ALLELC\",\"ALLGAS\",\"ALLGEO\",\"ALLHET\",\"ALLHYD\",\"ALLNUC\",\"ALLOIL\",\"ALLOIL-B\",\"ALLOTH\",\"ALLSOL\",\"ALLWIN\",\"ALLWAS\"]}",
+        "Name": "01_ALL_Primary energy"
+    },
+    {
+        "Description": "Agriculture final energy consumption",
+        "EditedOn": "2024-02-20 09:53",
+        "LastAccessed": "2024-02-20 09:53",
+        "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"A_Techs\"],\"commodityset\":[\"ALLAMM\",\"ALLBIO\",\"ALLCOA\",\"ALLELC\",\"ALLGAS\",\"ALLGAS-B\",\"ALLGEO\",\"ALLH2\",\"ALLH2F\",\"ALLHET\",\"ALLHYD\",\"ALLNUC\",\"ALLOIL\",\"ALLOIL-B\",\"ALLOTH\",\"ALLSOL\",\"ALLWAS\",\"ALLWIN\"]}",
+        "Name": "01_AGR_FEC"
+    },
+    {
+        "Description": "Transport final energy consumption by mode",
+        "EditedOn": "2024-02-20 09:53",
+        "LastAccessed": "2024-02-20 09:53",
+        "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"T-AVI\",\"T-BUS\",\"T-CAR\",\"T-HDT\",\"T-LCV\",\"T-MDT\",\"T-MOT\",\"T-NAV\",\"T-RAI\"],\"commodityset\":[\"ALLAMM\",\"ALLBIO\",\"ALLCOA\",\"ALLELC\",\"ALLGAS\",\"ALLGAS-B\",\"ALLGEO\",\"ALLH2\",\"ALLH2F\",\"ALLHET\",\"ALLHYD\",\"ALLNUC\",\"ALLOIL\",\"ALLOIL-B\",\"ALLOTH\",\"ALLSOL\",\"ALLWAS\",\"ALLWIN\"]}",
+        "Name": "01_TRA_FEC by mode"
+    },
+    {
+        "Description": "Final Energy consumption by sector",
+        "EditedOn": "2024-02-20 09:53",
+        "LastAccessed": "2024-02-20 09:53",
+        "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"I-CH\",\"I-IS\",\"I-NF\",\"I-NM\",\"I-OI\",\"I-PP\",\"I-WP\"],\"commodityset\":[\"ALLAMM\",\"ALLBIO\",\"ALLCOA\",\"ALLELC\",\"ALLGAS\",\"ALLGAS-B\",\"ALLGEO\",\"ALLH2\",\"ALLH2F\",\"ALLHET\",\"ALLHYD\",\"ALLNUC\",\"ALLOIL\",\"ALLOIL-B\",\"ALLOTH\",\"ALLSOL\",\"ALLWAS\",\"ALLWIN\"]}",
+        "Name": "01_IND_FEC by sector"
+    },
+    {
+        "Description": "Capacity portfolio of Power sector plants and Decentralised plants",
+        "EditedOn": "2024-02-20 09:53",
+        "LastAccessed": "2024-02-20 09:53",
+        "Filter": "{\"attribute\":[\"VAR_Cap\"],\"processset\":[\"P_BGS\",\"P_BGS-CCS\",\"P_BIO\",\"P_BIO-CCS\",\"P_BLQ\",\"P_COA\",\"P_COA-CCS\",\"P_GAS\",\"P_GAS-CCS\",\"P_GEO\",\"P_HYD\",\"P_NUC\",\"P_OCE\",\"P_OIL\",\"P_SOL\",\"P_WAS\",\"P_WIN-OF\",\"P_WIN-ON\"]}",
+        "Name": "01_PWR_Power plant capacity"
+    },
+    {
+        "Description": "Centralized and Decentralised elecricity production",
+        "EditedOn": "2024-02-20 09:53",
+        "LastAccessed": "2024-02-20 09:53",
+        "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"P_BGS\",\"P_BGS-CCS\",\"P_BIO\",\"P_BIO-CCS\",\"P_BLQ\",\"P_COA\",\"P_COA-CCS\",\"P_GAS\",\"P_GAS-CCS\",\"P_GEO\",\"P_HYD\",\"P_NUC\",\"P_OCE\",\"P_OIL\",\"P_SOL\",\"P_WAS\",\"P_WIN\"],\"commodityset\":[\"ALLELC\"]}",
+        "Name": "01_PWR_Electricity Production"
+    },
+    {
+        "Description": "CO2 emissions by sector",
+        "EditedOn": "2024-02-20 09:53",
+        "LastAccessed": "2024-02-20 09:53",
+        "Filter": "{\"attribute\":[\"VAR_FOut\"],\"commodity\":[\"AGRCO2\",\"INDCO2\",\"PWRCO2\",\"RSDCO2\",\"SRVCO2\",\"TRACO2\",\"UPSCO2\"]}",
+        "Name": "02_CO2 emissions"
+    },
+    {
+        "Description": "Dummy Import check",
+        "EditedOn": "2024-02-20 09:53",
+        "LastAccessed": "2024-02-20 09:53",
+        "Filter": "{\"attribute\":[\"VAR_FOut\"],\"processset\":[\"DUMIMP\"]}",
+        "Name": "00_Check_DummyImp"
+    },
+    {
+        "Description": "Total discounted system cost",
+        "EditedOn": "2024-02-20 09:53",
+        "LastAccessed": "2024-02-20 09:53",
+        "Filter": "{\"attribute\":[\"ObjZ\"]}",
+        "Name": "00_SystemCost"
+    },
+    {
+        "Description": "Total discounted system cost detailed by type activity (ACT), fixed (FIX), investment (INV) and  flow (FLO)",
+        "EditedOn": "2024-02-20 09:53",
+        "LastAccessed": "2024-02-20 09:53",
+        "Filter": "{\"attribute\":[\"Cost_NPV\"]}",
+        "Name": "00_SystemCost by type"
+    },
+    {
+        "Description": "Residential rehabilitation houses savings",
+        "EditedOn": "2024-02-20 09:53",
+        "LastAccessed": "2024-02-20 09:53",
+        "Filter": "{\"process\":[\"R-DUM-SAV\"],\"attribute\":[\"VAR_FOut\",\"VAR_Cap\",\"Cost_Inv\"]}",
+        "Name": "01_RSD-Savings"
+    },
+    {
+        "Description": "Electricity Consumption by sector",
+        "EditedOn": "2024-02-20 09:53",
+        "LastAccessed": "2024-02-20 09:53",
+        "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"A_Techs\",\"I_Techs\",\"R_Techs\",\"S_Techs\",\"T_Techs\",\"U_All\"],\"commodityset\":[\"ALLELC\"]}",
+        "Name": "01_ALL_ElcCons by sector"
+    },
+    {
+        "Description": "Road transport final energy consumption",
+        "EditedOn": "2024-02-20 09:53",
+        "LastAccessed": "2024-02-20 09:53",
+        "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"T-BUS\",\"T-CAR\",\"T-HDT\",\"T-LCV\",\"T-MDT\",\"T-MOT\"],\"commodityset\":[\"ALLAMM\",\"ALLBIO\",\"ALLCOA\",\"ALLELC\",\"ALLGAS\",\"ALLGAS-B\",\"ALLGEO\",\"ALLH2\",\"ALLH2F\",\"ALLHET\",\"ALLHYD\",\"ALLNUC\",\"ALLOIL\",\"ALLOIL-B\",\"ALLOTH\",\"ALLSOL\",\"ALLWAS\",\"ALLWIN\"]}",
+        "Name": "01_TRA_FEC Road"
+    },
+    {
+        "Description": "Residential fuel consumption by energy service",
+        "EditedOn": "2024-02-20 09:53",
+        "LastAccessed": "2024-02-20 09:53",
+        "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"R-AC\",\"R-CK\",\"R-EAP\",\"R-LIG\",\"R-OTH\",\"R-TH\"],\"commodityset\":[\"ALLAMM\",\"ALLBIO\",\"ALLCOA\",\"ALLELC\",\"ALLGAS\",\"ALLGAS-B\",\"ALLGEO\",\"ALLH2\",\"ALLH2F\",\"ALLHET\",\"ALLHYD\",\"ALLNUC\",\"ALLOIL\",\"ALLOIL-B\",\"ALLOTH\",\"ALLSOL\",\"ALLWAS\",\"ALLWIN\"]}",
+        "Name": "01_RSD_FEC"
+    },
+    {
+        "Description": "Services final energy consumption by energy service",
+        "EditedOn": "2024-02-20 09:53",
+        "LastAccessed": "2024-02-20 09:53",
+        "Filter": "{\"attribute\":[\"VAR_FIn\"],\"processset\":[\"S-AC\",\"S-CK\",\"S-EAP\",\"S-LIG\",\"S-OTH\",\"S-SLIG\",\"S-TH\"],\"commodityset\":[\"ALLAMM\",\"ALLBIO\",\"ALLCOA\",\"ALLELC\",\"ALLGAS\",\"ALLGAS-B\",\"ALLGEO\",\"ALLH2\",\"ALLH2F\",\"ALLHET\",\"ALLHYD\",\"ALLNUC\",\"ALLOIL\",\"ALLOIL-B\",\"ALLOTH\",\"ALLSOL\",\"ALLWAS\",\"ALLWIN\"]}",
+        "Name": "01_SRV_FEC"
+    }
+]
