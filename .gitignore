@@ -1,0 +1,16 @@
+# Do not version control these files (except marked with "!")
+
+# Veda export folder
+Exported_files/*.*
+
+# GAMS
+GAMSSAVE/*.*
+
+# Non-essential Veda settings
+Settings.json
+*Details.json
+*FormSettings.json
+!FrontEndFormFormSettings.json
+
+# Temp excel files
+**/~$*.xlsx
