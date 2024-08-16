@@ -2,7 +2,7 @@
 
 ## Authors
 ### Original developers of the TIMES-GEO
-* Alessando Chiodi 
+* Alessandro Chiodi 
 * Gabriele Cassetti 
 * Ioannis Vrochidis 
 * Alessia Elia
@@ -10,6 +10,7 @@
 * Conor Murphy
 * Cian Patrick Linehan
 * Siddharth Joshi
+* James Glynn
 
 
 ## Contributing developers
