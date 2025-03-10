@@ -1,0 +1,82 @@
+{
+    "creators": [
+        {
+            "orcid": "0000-0002-9757-5972",
+            "affiliation": "E4SMA s.r.l.",
+            "name": "Chiodi, Alessandro"
+        },
+        {
+            "affiliation": "E4SMA s.r.l.",
+            "name": "Cassetti, Gabriele"
+        },
+        {
+            "affiliation": "E4SMA s.r.l.",
+            "name": "Vrochidis, Ioannis"
+        },
+        {
+            "affiliation": "E4SMA s.r.l.",
+            "name": "Elia, Alessia"
+        },
+        {
+            "orcid": "0000-0001-7735-6441",
+            "affiliation": "E4SMA s.r.l.",
+            "name": "Gargiulo, Maurizio"
+        },
+        {
+            "affiliation": "University College Cork",
+            "name": "Murphy, Conor"
+        },
+        {
+            "affiliation": "University College Cork",
+            "name": "Linehan, Cian Patrick"
+        },
+        {
+            "affiliation": "University College Cork",
+            "name": "Joshi, Siddharth"
+        },
+        {
+            "orcid": "0000-0001-7004-0153",
+            "affiliation": "University College Cork",
+            "name": "Glynn, James"
+        }
+    ],
+    "contributors": [
+        {
+            "orcid": "0000-0002-6608-5997",
+            "affiliation": "University College Cork",
+            "name": "O Gallachoir, Brian"
+        },
+        {
+            "affiliation": "University College Cork",
+            "name": "Dean, Paul"
+        },
+        {
+            "orcid": "0000-0003-2388-7057",
+            "affiliation": "Columbia University",
+            "name": "Balyk, Olexandr"
+        },
+        {
+            "orcid": "0000-0001-7390-704X",
+            "affiliation": "University College Cork",
+            "name": "Aryanpur, Vahid"
+        },
+        {
+            "affiliation": "E4SMA s.r.l.",
+            "name": "Sechi, Sonja"
+        },
+        {
+            "affiliation": "E4SMA s.r.l.",
+            "name": "Pillon, Tommaso"
+        },
+    ],
+    "license": "CC-BY-NC-SA-4.0",
+    "title": "TIMES-GEO",
+    "keywords": [
+        "TIMES",
+        "Energy system model",
+        "Scenario analysis",
+        "Energy planning",
+        "Energy transition",
+        "Global"
+    ]
+}
